@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+h1 {
+    background-color: rgb(219, 194, 156);
+    color: brown;
+    font-family: cursive;
+}
+
