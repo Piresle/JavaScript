@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: navy;
+    text-align: center;
+}
+
+section {
+    background-color: azure;
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 15px;
+    width: 500px;
+    margin: auto; /* deixa centralizado */
+    color: navy;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+}
+
+footer {
+    color: navy;
+    text-align: center;
+    font-style: italic;
+}
+
