@@ -26,7 +26,7 @@ function verificar() {
                 // idoso 
                 img.setAttribute('src', 'idosoM.png')
             }
-        } else {
+        } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >=0 && idade < 10) {
                 // criança
@@ -38,12 +38,12 @@ function verificar() {
                 // adulto
                 img.setAttribute('src', 'adultoF.png')
             } else {
-                // idoso 
+                // idoso
                 img.setAttribute('src', 'idosoF.png')
             }
         }
         res.computedStyleMap.textAlign = 'center'
-        res.innerHTML = `detectamos ${genero} com ${idade} anos`
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
-    }
+    }   
 }
