@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-geral.css">
     <title>Tratamento de Dados</title>
+    <style>
+        .title {
+            color: rgb(27, 27, 109);
+        }
+        h3 {
+            color: rgb(2, 2, 75);
+            text-decoration: underline;
+        }
+        h4 {
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h2>Armazenando Dados</h2>
@@ -16,6 +29,30 @@
     <p>A variável nome recebe o que for digitado no prompt da janela</p>
     <hr>
 
-    
+    <h3>Conversão</h3>
+    <h4 class="title">String -> Número</h4>
+    <p>Number.parseInt(n)  -> converte a string n para um número inteiro</p>
+    <p>Number.parseFloat(n)  -> converte a string n para um número decimal (float)</p>
+    <p>OU</p>
+    <p>Number(n)  -> converte a string para um valor númerico (float ou int, qualquer um dos dois)</p>
+    <h4 class="title">Número -> String</h4>
+    <p>String(n)  -> converte a variável n para string</p>
+    <p>n.toStrig()  -> converte a variável n para string</p>
+    <hr>
+
+    <h3>Formatação de Strings</h3>
+    <h4 class="title">Concatenação</h4>
+    <p>texto entre aspas + variável</p>
+    <p>ex: var nome = Mateus</p>
+    <p>('Prazer te conhecer ' + nome)</p>
+    <h4 class="title">Template string</h4>
+    <p>texto entre `crase` e variável dentro de: ${ }  (NodeJS)</p>
+    <h4 class="title">length</h4>
+    <p>variavel.length  -> conta quantos caracteres a string tem</p>
+    <h4 class="title">upper case</h4>
+    <p>variavel.toUpperCase()  -> converte os caracteres para "MAIÚSCULAS"</p>
+    <h4 class="title">lower case</h4>
+    <p>variavel.toLowerCase()  -> converte os caracteres para "minúsculas"</p>
 </body>
 </html>
+
