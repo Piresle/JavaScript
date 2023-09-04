@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Dados</title>
+    <style>
+        * {
+            background-color: brown;
+            color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tratamento de Dados</h1>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2 
+        window.alert('A soma dos valores é ' + s)
+
+        var s1 = window.prompt('Digite uma palavra: ')
+        var s2 = window.prompt('Digite outra palavra: ')
+        var c = s1 + s2
+        window.alert('A concatenação de "' + s1 + '" e "' + s2 + '" fica: ' + String(c))
+        window.alert(`OU (template string) -> A concatenação de "${s1}" e "${s2}" fica: ${c}`)
+    </script>
+</body>
+</html>
+
