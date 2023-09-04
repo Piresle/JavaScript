@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tratamento de Dados - Aula 06</title>
+    <style>
+        * {
+            background-color: burlywood;
+            color: maroon;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
 </head>
 <body>
     <script>
-
+        var nome = window.prompt('Qual é seu nome? ')
+        document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
     </script>
 </body>
 </html>
+
