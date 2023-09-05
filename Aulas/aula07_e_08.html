@@ -14,7 +14,7 @@
         <h3 class="title-3">Aritméticos</h3>
         <table border="1" class="tabela" id="aritmeticos">
             <tr>
-                <td>+</td>
+                <td width="60px">+</td>
                 <td>adição ou concatenação</td>
             </tr>
             <tr>
@@ -38,62 +38,10 @@
                 <td>exponenciação</td>
             </tr>
         </table>
-        <hr>
-    </div>
-
-    <div>
-        <h3 class="title-3">Atribuição</h3>
-        <table border="1" class="tabela" id="atribuicao">
-            <tr>
-                <td>=</td>
-                <td>"recebe"</td>
-            </tr>
-            <tr>
-                <td>==</td>
-                <td>igual</td>
-            </tr>
-            <tr>
-                <td>+=</td>
-                <td>o mesmo que "var = var + numero" (-=, *=, ...)</td>
-            </tr>
-            <tr>
-                <td style="width: 40px;">++</td>
-                <td>incremento (var++ é o mesmo que var = var + numero)</td>
-            </tr>
-        </table>
-        <hr>
-    </div>
-
-    <div>
-        <h3 class="title-3">Relacionais</h3>
-        <table border="1" class="tabela" id="relacionais">
-
-        </table>
-        <hr>
-    </div>
-
-    <div>
-        <h3 class="title-3">Lógicos</h3>
-        <table border="1" class="tabela" id="logicos">
-
-        </table>
-        <hr>
-    </div>
-
-    <div>
-        <h3 class="title-3">Ternário</h3>
-        <table border="1" class="tabela" id="ternario">
-
-        </table>
-        <hr>
-    </div>
-
-    <div>
-        <h3 class="title-3">Precedência</h3>
+        <h4 class="title-4">Precedência</h4>
         <table border="1" class="tabela" id="precedencia">
-            <th colspan="4">Aritméticos</th>
             <tr>
-                <td>1°</td>
+                <td width="60px">1°</td>
                 <td colspan="3">( )</td>
             </tr>
             <tr>
@@ -112,6 +60,97 @@
                 <td colspan="2">-</td>
             </tr>
         </table>
+        <hr>
+    </div>
+
+    <div>
+        <h3 class="title-3">Atribuição</h3>
+        <table border="1" class="tabela" id="atribuicao">
+            <tr>
+                <td width="60px">=</td>
+                <td>"recebe"</td>
+            </tr>
+            <tr>
+                <td>+=</td>
+                <td>o mesmo que "var = var + numero" (-=, *=, ...)</td>
+            </tr>
+            <tr>
+                <td style="width: 40px;">++</td>
+                <td>incremento (var++ é o mesmo que var = var + numero)</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <h3 class="title-3">Relacionais</h3>
+        <table border="1" class="tabela" id="relacionais">
+            <tr>
+                <td width="60px">></td>
+                <td>maior que</td>
+            </tr>
+            <tr>
+                <td>&lt;</td>
+                <td>menor que</td>
+            </tr>
+            <tr>
+                <td>>=</td>
+                <td>maior ou igual a</td>
+            </tr>
+            <tr>
+                <td>&lt;=</td>
+                <td>menor ou igual a</td>
+            </tr>
+            <tr>
+                <td>==</td>
+                <td>igual a</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>diferente de</td>
+            </tr>
+            <tr>
+                <td>===</td>
+                <td>operador de identidade ("idêntico")</td>
+            </tr>
+        </table>
+        <p>* O resultado é sempre boolean (True / False)</p>
+        <p>* Não tem ordem de Precedência</p>
+        <hr>
+    </div>
+
+    <div>
+        <h3 class="title-3">Lógicos</h3>
+        <table border="1" class="tabela" id="logicos">
+            <tr>
+                <td width="60px">!</td>
+                <td>negação (NOT)</td>
+            </tr>
+            <tr>
+                <td>&&</td>
+                <td>conjunção (AND)</td>
+            </tr>
+            <tr>
+                <td>||</td>
+                <td>disjunção (OR)</td>
+            </tr>
+        </table>
+        <h4 class="title-4">Precedência</h4>
+        <table border="1" class="tabela" id="preced-logic">
+            <tr>
+                <td width="60px">1°</td>
+                <td>!</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>&&</td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>||</td>
+            </tr>
+        </table>
+        <hr>
     </div>
 </body>
 </html>

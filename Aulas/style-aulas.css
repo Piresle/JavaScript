@@ -34,18 +34,30 @@ body {
 
 #atribuicao {
     width: 400px;
-    height: 200px;
+    height: 180px;
 }
 
 #relacionais {
     width: 400px;
+    height: 180px;
+}
+
+#logicos {
+    width: 400px;
+    height: 90px;
 }
 
 #precedencia {
     width: 400px;
-    height: 200px;
+    height: 180px;
 }
 
+#preced-logic {
+    padding: 90px;
+    width: 400px;
+    height: 60px;
+}
+ 
 tr {
     background-color: rgb(185, 172, 151);
 }
