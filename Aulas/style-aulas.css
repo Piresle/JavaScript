@@ -20,6 +20,40 @@ body {
     font-style: italic;
 }
 
+/*-----------------------Aula 07------------------------*/
+.tabela {
+    border: 1px solid rgba(0, 0, 0, 0.596);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#aritmeticos {
+    width: 400px;
+    height: 180px;
+}
+
+#atribuicao {
+    width: 400px;
+    height: 200px;
+}
+
+#relacionais {
+    width: 400px;
+}
+
+#precedencia {
+    width: 400px;
+    height: 200px;
+}
+
+tr {
+    background-color: rgb(185, 172, 151);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(151, 133, 109);
+}
+
 /*
 h4 - .title-4
 h3 - .title-3
