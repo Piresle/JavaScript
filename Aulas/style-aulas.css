@@ -7,26 +7,22 @@ body {
     color: aliceblue;
 }
 
-.title {
+.title-4 {
     color: rgb(27, 27, 109);
 }
-h3 {
+
+.title-3 {
     color: rgb(2, 2, 75);
     text-decoration: underline;
 }
-h4 {
-    font-style: italic;
-    text-decoration: underline;
-}
-.it {
-    font-style: italic;
-}
 
-h2 {
-    text-decoration: underline;
+.italic {
+    font-style: italic;
 }
 
 /*
-h4 - .title
-p - .it (italico-destaque no texto)
+h4 - .title-4
+h3 - .title-3
+.italic (italico-destaque no texto)
 */
+
