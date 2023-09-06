@@ -8,5 +8,83 @@
 </head>
 <body>
     <h1>Introdução ao DOM - Aula 09</h1>
+    <div>
+        <p>DOM - Document Object Model</p>
+        <p>"conjunto de objetos no navegador que dá acesso aos componentes internos do seu website."</p>
+        <h3 class="title-3">Árvore DOM</h3>
+        <ul>
+            <li><i>window</i> - "raiz" da árvore DOM (janela do navegador)</li>
+            <ul>
+                <li><i>location</i> - localização do site (URL, página atual, página anterior)</li>
+                <li>document - "documento atual"</li>
+                <ul>
+                    <li><i>HTML</i> - estrutura do site</li>
+                    <ul>
+                        <li>head</li>
+                        <ul>
+                            <li>meta</li>
+                            <li>title</li>
+                            <li>...</li>
+                        </ul>
+                        <li>body</li>
+                        <ul>
+                            <li>h1</li>
+                            <li>p</li>
+                            <li>div</li>
+                            <li>...</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <li><i>history</i> - histórico</li>
+            </ul>
+        </ul>
+        <h3 class="title-3">Seleção</h3>
+        <ul>
+            <li>por Marca</li>
+            <ul>
+                <li><i>getElementsByTagName()</i></li>
+                <ul>
+                    <li>dentro de "<i>document</i>"</li>
+                    <li>seleção por tag</li>
+                    <li><i>document.getElementsByTagName(</i>tag<i>)</i></li>
+                </ul>
+            </ul>
+            <li id="id">por ID</li>
+            <ul>
+                <li><i>getElementById()</i></li>
+            </ul>
+            <li>por Nome</li>
+            <ul>
+                <li><i>getElementsByName()</i></li>
+                <li>através do atributo "name" em uma tag</li>
+            </ul>
+            <li>por Classe</li>
+            <ul>
+                <li><i>getElementsBtClassName()</i></li>
+                <li></li>
+            </ul>
+            <li>por Seletor</li>
+            <ul>
+                <li><i>querySelector()</i></li>
+                <ul>
+                    <li>( tag + seletor(# ou .) + atributo)</li>
+                    <li>mais prático para alterações rápidas</li>
+                </ul>
+                <li><i>querySelectorAll()</i></li>
+            </ul>
+        </ul>
+        <hr>
+    </div>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = document.getElementsByTagName('p')[0] // selecionou o parágrafo '0'
+        var id = document.getElementById('id')
+        window.document.write('Está escrito assim: ' + p1.innerText)
+        id.style.background = 'lightgreen'
+    </script>
 </body>
 </html>
+
