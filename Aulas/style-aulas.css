@@ -66,6 +66,18 @@ tr:nth-child(even) {
     background-color: rgb(151, 133, 109);
 }
 
+/*-----------------------Aula 10------------------------*/
+#area {
+    font-family: monospace;
+    color: navy;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+
 /*
 h4 - .title-4
 h3 - .title-3
