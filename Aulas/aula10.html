@@ -8,6 +8,56 @@
 </head>
 <body>
     <h1>Eventos do DOM - Aula 10</h1>
+    <hr>
+
+    <div>
+        <h3 class="title-3">Aula09</h3>
+        <ul>
+            <li><i>DOM</i> - Document Object Model</li>
+            <ul>
+                <li>Facilitador dentro do navegador para dar acesso aos elementos do JavaScript</li>
+            </ul>
+            <li>Árvore DOM</li>
+            <li>Tipos de Seleção</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div>
+        <h3 class="title-3">Eventos DOM</h3>
+        <p>"Tudo aquilo que pode acontecer com um elemento."</p>
+        <h4 class="title-4">Funções</h4>
+        <ul>
+            <li>Conjunto de linhas (bloco de código) que serão executadas somente quando ocorrer um evento</li>
+            <ul>
+                <li><i>function</i> ação(parâmetro) { <br> código <br> } </li>
+            </ul>
+        </ul>
+        <p>Exemplo:</p>
+        <div id="area" onClick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> <!-- função "clicar" -> ao clicar no "interaja...", o que estiver no bloco da função será executado -->
+            <strong>interaja...</strong>
+        </div>
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area') //Deixando a variável "fora" de uma função, ela pode ser usada em outras
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'grey'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+            a.style.background = 'lightblue'
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'aliceblue'
+        }
+    </script>
 </body>
 </html>
 
