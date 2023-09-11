@@ -58,7 +58,7 @@
                 <li><i>getElementsByName()</i></li>
                 <li>através do atributo "name" em uma tag</li>
             </ul>
-            <li>por Classe</li>
+            <li class="classes">por Classe</li>
             <ul>
                 <li><i>getElementsBtClassName()</i></li>
                 <li></li>
@@ -79,9 +79,9 @@
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
     <div>Clique em mim</div>
     <script>
-        var corpo = window.document.body
         var p1 = document.getElementsByTagName('p')[0] // selecionou o parágrafo '0'
         var id = document.getElementById('id')
+
         window.document.write('Está escrito assim: ' + p1.innerText)
         id.style.background = 'lightgreen'
     </script>
