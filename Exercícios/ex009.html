@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
+    <style>
+        * {
+            background-color: blanchedalmond;
+            color: rgb(1, 1, 77);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        input#pais {
+            width: 200px;
+            height: 25px;
+        }
+        input {
+            width: 60px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Verificação de Nacionalidade</h1>
+    País de Origem: <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function verificar() {
+            var pais = window.document.querySelector('input#pais')
+            var resp = window.document.querySelector('div#resp')
+            var pa = Text(pais)
+            resp.innerHTML = `<p>O país informado foi <strong>${pa}</strong></p>`
+            if (pais == 'Brasil') {
+                resp.innerHTML = `<p>Você é <strong>Brasileiro!</strong></p>`
+            } else {
+                resp.innerHTML = `Você é <strong>Estrangeiro!</strong>`
+            }
+        }
+    </script>
 </body>
 </html>
 
 <!-- verificação se o usuário é brasileiro ou estrangeiro (em formato de site, com  JS) -->
+
