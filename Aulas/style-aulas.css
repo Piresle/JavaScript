@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-/*-----------------------Geral------------------------*/
+/*---------------------------Geral--------------------------*/
 body {
     background-color: cadetblue;
     font-family: 'Times New Roman', Times, serif;
@@ -22,7 +22,7 @@ body {
     font-style: italic;
 }
 
-/*-----------------------Aula 07------------------------*/
+/*--------------------------Aula 07--------------------------*/
 .tabela {
     border: 1px solid rgba(0, 0, 0, 0.596);
     border-collapse: collapse;
@@ -68,7 +68,8 @@ tr:nth-child(even) {
     background-color: rgb(151, 133, 109);
 }
 
-/*-----------------------Aula 10------------------------*/
+
+/*--------------------------Aula 10---------------------------*/
 #area {
     font-family: monospace;
     color: navy;
@@ -78,6 +79,11 @@ tr:nth-child(even) {
     text-align: center;
     line-height: 200px;
 }
+
+
+/*-----------------------Aulas 11 e 12------------------------*/
+
+
 
 
 /*
