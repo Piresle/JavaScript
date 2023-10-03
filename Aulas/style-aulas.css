@@ -7,14 +7,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: aliceblue;
+    
+}
+
+div, section {
+    background-color: rgb(1, 1, 49);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .title-4 {
-    color: rgb(27, 27, 109);
+    color: rgb(241, 222, 199);
 }
 
 .title-3 {
-    color: rgb(2, 2, 75);
+    color: rgb(230, 200, 161);
     text-decoration: underline;
 }
 
