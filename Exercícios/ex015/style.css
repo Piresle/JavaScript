@@ -10,6 +10,11 @@ header {
     text-align: center;
 }
 
+input {
+    padding: 2px;
+    margin-right: 5px;
+}
+
 section {
     background: white;
     border-radius: 10px;
