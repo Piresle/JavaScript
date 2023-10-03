@@ -8,7 +8,7 @@ while (c <= 10) {
 }
 */
 
-for (var c = 1; c <= 10; c++) { 
+for (var c = 1; c <= 10; c++) { //quando a condição for falsa, o programa para de executar
     console.log(c)
 }
 
