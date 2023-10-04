@@ -7,7 +7,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: aliceblue;
-    
 }
 
 header {
@@ -26,6 +25,9 @@ div, section {
     border-radius: 15px;
     margin-bottom: 10px;
     text-align: center justify;
+    width: 1000px;
+    margin: auto auto;
+    margin-bottom: 10px;
 }
 
 .title-4 {
