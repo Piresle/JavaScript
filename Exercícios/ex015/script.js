@@ -17,3 +17,11 @@ function calcular() {
         }
     }
 }
+
+/* PYTHON
+N = int(input())
+if 0 < N < 1000:
+    for cont in range(1, 11):
+        print(f'{cont} x {N} = {N*cont}')
+*/
+
