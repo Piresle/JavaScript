@@ -10,6 +10,16 @@ body {
     
 }
 
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    color: cadetblue;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div, section {
     background-color: rgb(1, 1, 49);
     padding: 10px;
